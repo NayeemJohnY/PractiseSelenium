@@ -1,0 +1,35 @@
+2017-12-30 23:49:09,906 - Listners -INFO - beforeAlertAcceptChromeDriver: chrome on XP (e14c5bebd53b60a23fd046007549e9b3)
+2017-12-30 23:49:09,916 - Listners -INFO - afterAlertAcceptChromeDriver: chrome on XP (e14c5bebd53b60a23fd046007549e9b3)
+2017-12-30 23:51:48,736 - Listners -INFO - beforeAlertAcceptChromeDriver: chrome on XP (3249cb104756b600c46876f0d38ec2b6)
+2017-12-30 23:51:48,747 - Listners -INFO - afterAlertAcceptChromeDriver: chrome on XP (3249cb104756b600c46876f0d38ec2b6)
+2017-12-30 23:51:48,758 - Listners -INFO - beforeNavigateTofile:///F:/Selenium/ConfirmAlert.html
+2017-12-30 23:51:49,263 - Listners -INFO - afterNavigateTofile:///F:/Selenium/ConfirmAlert.html
+2017-12-30 23:51:49,315 - Listners -INFO - beforeFindByBy.cssSelector: button
+2017-12-30 23:51:49,620 - Listners -INFO - beforeClickOn[[ChromeDriver: chrome on XP (3249cb104756b600c46876f0d38ec2b6)] -> css selector: button]
+2017-12-30 23:51:49,767 - Listners -INFO - afterClickOn[[ChromeDriver: chrome on XP (3249cb104756b600c46876f0d38ec2b6)] -> css selector: button]
+2017-12-30 23:51:51,778 - Listners -INFO - beforeAlertAcceptChromeDriver: chrome on XP (3249cb104756b600c46876f0d38ec2b6)
+2017-12-30 23:51:51,785 - Listners -INFO - afterAlertAcceptChromeDriver: chrome on XP (3249cb104756b600c46876f0d38ec2b6)
+2017-12-30 23:51:53,874 - Listners -INFO - beforeNavigateRefreshChromeDriver: chrome on XP (3249cb104756b600c46876f0d38ec2b6)
+2017-12-30 23:51:54,217 - Listners -INFO - afterNavigateRefreshChromeDriver: chrome on XP (3249cb104756b600c46876f0d38ec2b6)
+2017-12-30 23:51:54,219 - Listners -INFO - beforeFindByBy.cssSelector: button
+2017-12-30 23:51:54,242 - Listners -INFO - beforeClickOn[[ChromeDriver: chrome on XP (3249cb104756b600c46876f0d38ec2b6)] -> css selector: button]
+2017-12-30 23:51:54,333 - Listners -INFO - afterClickOn[[ChromeDriver: chrome on XP (3249cb104756b600c46876f0d38ec2b6)] -> css selector: button]
+2017-12-30 23:51:56,343 - Listners -INFO - beforeAlertDismissChromeDriver: chrome on XP (3249cb104756b600c46876f0d38ec2b6)
+2017-12-30 23:51:56,353 - Listners -INFO - afterAlertDismissChromeDriver: chrome on XP (3249cb104756b600c46876f0d38ec2b6)
+2017-12-30 23:51:56,354 - Listners -INFO - beforeFindByBy.cssSelector: #confirmdemo
+2017-12-30 23:51:56,415 - Listners -INFO - beforeNavigateTofile:///F:/Selenium/PromptAlert.html
+2017-12-30 23:51:56,468 - Listners -INFO - afterNavigateTofile:///F:/Selenium/PromptAlert.html
+2017-12-30 23:51:56,480 - Listners -INFO - beforeFindByBy.cssSelector: button
+2017-12-30 23:51:56,604 - Listners -INFO - beforeClickOn[[ChromeDriver: chrome on XP (3249cb104756b600c46876f0d38ec2b6)] -> css selector: button]
+2017-12-30 23:51:56,876 - Listners -INFO - afterClickOn[[ChromeDriver: chrome on XP (3249cb104756b600c46876f0d38ec2b6)] -> css selector: button]
+2017-12-30 23:52:00,897 - Listners -INFO - beforeAlertAcceptChromeDriver: chrome on XP (3249cb104756b600c46876f0d38ec2b6)
+2017-12-30 23:52:01,052 - Listners -INFO - afterAlertAcceptChromeDriver: chrome on XP (3249cb104756b600c46876f0d38ec2b6)
+2017-12-30 23:52:01,053 - Listners -INFO - beforeFindByBy.cssSelector: #promptdemo
+2017-12-30 23:52:03,123 - Listners -INFO - beforeNavigateRefreshChromeDriver: chrome on XP (3249cb104756b600c46876f0d38ec2b6)
+2017-12-30 23:52:03,164 - Listners -INFO - afterNavigateRefreshChromeDriver: chrome on XP (3249cb104756b600c46876f0d38ec2b6)
+2017-12-30 23:52:03,165 - Listners -INFO - beforeFindByBy.cssSelector: button
+2017-12-30 23:52:03,199 - Listners -INFO - beforeClickOn[[ChromeDriver: chrome on XP (3249cb104756b600c46876f0d38ec2b6)] -> css selector: button]
+2017-12-30 23:52:03,299 - Listners -INFO - afterClickOn[[ChromeDriver: chrome on XP (3249cb104756b600c46876f0d38ec2b6)] -> css selector: button]
+2017-12-30 23:52:05,310 - Listners -INFO - beforeAlertDismissChromeDriver: chrome on XP (3249cb104756b600c46876f0d38ec2b6)
+2017-12-30 23:52:05,317 - Listners -INFO - afterAlertDismissChromeDriver: chrome on XP (3249cb104756b600c46876f0d38ec2b6)
+2017-12-30 23:52:05,318 - Listners -INFO - beforeFindByBy.cssSelector: #promptdemo

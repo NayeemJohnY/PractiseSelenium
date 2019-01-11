@@ -1,0 +1,35 @@
+2017-12-30 23:49:09,906 [main] INFO Listners - beforeAlertAcceptChromeDriver: chrome on XP (e14c5bebd53b60a23fd046007549e9b3)
+2017-12-30 23:49:09,916 [main] INFO Listners - afterAlertAcceptChromeDriver: chrome on XP (e14c5bebd53b60a23fd046007549e9b3)
+2017-12-30 23:51:48,736 [main] INFO Listners - beforeAlertAcceptChromeDriver: chrome on XP (3249cb104756b600c46876f0d38ec2b6)
+2017-12-30 23:51:48,747 [main] INFO Listners - afterAlertAcceptChromeDriver: chrome on XP (3249cb104756b600c46876f0d38ec2b6)
+2017-12-30 23:51:48,758 [main] INFO Listners - beforeNavigateTofile:///F:/Selenium/ConfirmAlert.html
+2017-12-30 23:51:49,263 [main] INFO Listners - afterNavigateTofile:///F:/Selenium/ConfirmAlert.html
+2017-12-30 23:51:49,315 [main] INFO Listners - beforeFindByBy.cssSelector: button
+2017-12-30 23:51:49,620 [main] INFO Listners - beforeClickOn[[ChromeDriver: chrome on XP (3249cb104756b600c46876f0d38ec2b6)] -> css selector: button]
+2017-12-30 23:51:49,767 [main] INFO Listners - afterClickOn[[ChromeDriver: chrome on XP (3249cb104756b600c46876f0d38ec2b6)] -> css selector: button]
+2017-12-30 23:51:51,778 [main] INFO Listners - beforeAlertAcceptChromeDriver: chrome on XP (3249cb104756b600c46876f0d38ec2b6)
+2017-12-30 23:51:51,785 [main] INFO Listners - afterAlertAcceptChromeDriver: chrome on XP (3249cb104756b600c46876f0d38ec2b6)
+2017-12-30 23:51:53,874 [main] INFO Listners - beforeNavigateRefreshChromeDriver: chrome on XP (3249cb104756b600c46876f0d38ec2b6)
+2017-12-30 23:51:54,217 [main] INFO Listners - afterNavigateRefreshChromeDriver: chrome on XP (3249cb104756b600c46876f0d38ec2b6)
+2017-12-30 23:51:54,219 [main] INFO Listners - beforeFindByBy.cssSelector: button
+2017-12-30 23:51:54,242 [main] INFO Listners - beforeClickOn[[ChromeDriver: chrome on XP (3249cb104756b600c46876f0d38ec2b6)] -> css selector: button]
+2017-12-30 23:51:54,333 [main] INFO Listners - afterClickOn[[ChromeDriver: chrome on XP (3249cb104756b600c46876f0d38ec2b6)] -> css selector: button]
+2017-12-30 23:51:56,343 [main] INFO Listners - beforeAlertDismissChromeDriver: chrome on XP (3249cb104756b600c46876f0d38ec2b6)
+2017-12-30 23:51:56,353 [main] INFO Listners - afterAlertDismissChromeDriver: chrome on XP (3249cb104756b600c46876f0d38ec2b6)
+2017-12-30 23:51:56,354 [main] INFO Listners - beforeFindByBy.cssSelector: #confirmdemo
+2017-12-30 23:51:56,415 [main] INFO Listners - beforeNavigateTofile:///F:/Selenium/PromptAlert.html
+2017-12-30 23:51:56,468 [main] INFO Listners - afterNavigateTofile:///F:/Selenium/PromptAlert.html
+2017-12-30 23:51:56,480 [main] INFO Listners - beforeFindByBy.cssSelector: button
+2017-12-30 23:51:56,604 [main] INFO Listners - beforeClickOn[[ChromeDriver: chrome on XP (3249cb104756b600c46876f0d38ec2b6)] -> css selector: button]
+2017-12-30 23:51:56,876 [main] INFO Listners - afterClickOn[[ChromeDriver: chrome on XP (3249cb104756b600c46876f0d38ec2b6)] -> css selector: button]
+2017-12-30 23:52:00,897 [main] INFO Listners - beforeAlertAcceptChromeDriver: chrome on XP (3249cb104756b600c46876f0d38ec2b6)
+2017-12-30 23:52:01,052 [main] INFO Listners - afterAlertAcceptChromeDriver: chrome on XP (3249cb104756b600c46876f0d38ec2b6)
+2017-12-30 23:52:01,053 [main] INFO Listners - beforeFindByBy.cssSelector: #promptdemo
+2017-12-30 23:52:03,123 [main] INFO Listners - beforeNavigateRefreshChromeDriver: chrome on XP (3249cb104756b600c46876f0d38ec2b6)
+2017-12-30 23:52:03,164 [main] INFO Listners - afterNavigateRefreshChromeDriver: chrome on XP (3249cb104756b600c46876f0d38ec2b6)
+2017-12-30 23:52:03,165 [main] INFO Listners - beforeFindByBy.cssSelector: button
+2017-12-30 23:52:03,199 [main] INFO Listners - beforeClickOn[[ChromeDriver: chrome on XP (3249cb104756b600c46876f0d38ec2b6)] -> css selector: button]
+2017-12-30 23:52:03,299 [main] INFO Listners - afterClickOn[[ChromeDriver: chrome on XP (3249cb104756b600c46876f0d38ec2b6)] -> css selector: button]
+2017-12-30 23:52:05,310 [main] INFO Listners - beforeAlertDismissChromeDriver: chrome on XP (3249cb104756b600c46876f0d38ec2b6)
+2017-12-30 23:52:05,317 [main] INFO Listners - afterAlertDismissChromeDriver: chrome on XP (3249cb104756b600c46876f0d38ec2b6)
+2017-12-30 23:52:05,318 [main] INFO Listners - beforeFindByBy.cssSelector: #promptdemo

@@ -1,0 +1,71 @@
+10015421 DSKU 9762
+
+steps Followed:
+1.Create Due Now / Due date ( Full or partial ) Owing (Eg: 5pack -140 QTY)
+2.Verify LOW is created
+3.Verify Owing table and owing queue, Recent History table
+4.Release RFP, INV
+5.Goods in Performed
+6.Partial Redeem the owing in Owing queue by click on "edit" change the QTY ( 2pack -56 QTY)
+7.Verify the stockmovements
+8.Verify Owing table and owing queue, Recent History table
+9.Delete the owing outstanding amount (3 pack -84 QTY), Verify Owing table and owing queue
+10.Verify the stock movements
+
+
+Expected Result:
+1.Owing should be Created
+2.LOW OSU should be created ( +140 On Order)
+3.Owing table (140 ) and owing queue (140 QTY) and Recent History (0 QTY) should be Updated
+4.Delivery should be created and INV should be updated in OSU table and (-140 On Order , + 140 On Way )
+5.On Shelf should be increased (140 QTY), ( -140 On Way , +140 On Shelf)
+6.Redeem status should be updated and outstanding amount(84 QTY) should be updated in owing table, outstanding amount should be updated in owing queue
+7.Stock movement should be updated correctly( -56 Soft Allocation, -56 On Shelf)
+9. owing should be Deleted and status should be updated as "Deleted-84 QTY" in Owing table and removed from Owing queue
+10.Stock Movements should be updated correctly( -84 Soft Allocation)
+
+Actual Result:
+1.Owing is Created
+2.LOW OSU is created ( +140 On Order)
+3.Owing table (140 ) and owing queue (140 QTY) and Recent History (0 QTY) is Updated
+4.Delivery is created and INV is updated in OSU table (-140 On Order , + 140 On Way )
+5.On Shelf is increased (140 QTY) ( -140 On Way , +140 On Shelf)
+6. Redeem status is updated and outstanding amount(84 QTY) is updated in owing table, outstanding amount is updated in owing queue
+7.Stock movement is updated correctly( -56 Soft Allocation, -56 On Shelf)
+9. owing is Deleted and status should be updated as "Deleted 84 QTY" in Owing table and removed from Owing queue
+10.Stock Movements is updated Incorrectly( -84 Soft Allocation , +84 On Order)
+
+Test 2:
+DSKU:10010976
+9762
+
+steps Followed:
+1.Create Due Now / Due date ( Full or partial ) Owing (Eg: 5pack -140 QTY)
+2.Verify LOW is created
+3.Verify Owing table and owing queue, Recent History table
+4.Partial Redeem the owing in Owing queue by click on "edit" change the QTY ( 2pack -56 QTY)
+5.Verify the stockmovements
+6.Verify Owing table and owing queue, Recent History table
+7.Delete the owing outstanding amount (3 pack -84 QTY), Verify Owing table and owing queue
+8.Verify the stock movements
+
+
+Expected Result:
+1.Owing should be Created
+2.LOW OSU should be created ( +140 On Order)
+3.Owing table (140 ) and owing queue (140 QTY) and Recent History (0 QTY) should be Updated
+4. Redeem status should be updated and outstanding amount(84 QTY) should be updated in owing table, outstanding amount should be updated in owing queue
+5.Stock movement should be updated correctly( -56 Soft Allocation, -56 On Shelf)
+7. owing should be Deleted and status should be updated as "Deleted-84 QTY" in Owing table and removed from Owing queue
+8.Stock Movements should be updated correctly( -84 Soft Allocation)
+
+Actual Result:
+1.Owing is Created
+2.LOW OSU is created ( +140 On Order)
+3.Owing table (140 ) and owing queue (140 QTY) and Recent History (0 QTY) is Updated
+4. Redeem status is updated and outstanding amount(84 QTY) is updated in owing table, outstanding amount is updated in owing queue
+5.Stock movement is updated correctly( -56 Soft Allocation, -56 On Shelf)
+7. owing is Deleted and status is updated as "Deleted 84 QTY" in Owing table and removed from Owing queue
+8.Stock Movements is updated Incorrectly( -84 Soft Allocation , +84 On Order)
+
+

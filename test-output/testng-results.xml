@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="1" ignored="0" total="2" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="166008" started-at="2018-01-01T15:10:10Z" finished-at="2018-01-01T15:12:56Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="166008" started-at="2018-01-01T15:10:10Z" finished-at="2018-01-01T15:12:56Z">
+      <class name="seleniumEasy.RerunFailedCase">
+        <test-method status="PASS" signature="broserSetup()[pri:0, instance:seleniumEasy.RerunFailedCase@436e852b]" name="broserSetup" is-config="true" duration-ms="14" started-at="2018-01-01T20:40:10Z" finished-at="2018-01-01T20:40:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- broserSetup -->
+        <test-method status="SKIP" signature="Execution()[pri:0, instance:seleniumEasy.RerunFailedCase@436e852b]" name="Execution" duration-ms="23884" started-at="2018-01-01T20:40:11Z" finished-at="2018-01-01T20:40:34Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Timed out waiting for driver server to start.Build info: version: '3.8.0', revision: '924c4067df', time: '2017-11-30T11:36:59.109Z'System info: host: 'LOGESH', ip: '192.168.100.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'Driver info: driver.version: ChromeDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Timed out waiting for driver server to start.Build info: version: '3.8.0', revision: '924c4067df', time: '2017-11-30T11:36:59.109Z'System info: host: 'LOGESH', ip: '192.168.100.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'Driver info: driver.version: ChromeDriverat org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:192)at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:178)at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:79)at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:219)at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:142)at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)at seleniumEasy.RerunFailedCase.Execution(RerunFailedCase.java:29)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:6325/status] to be available after 20004 msat org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:100)at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:187)... 34 moreCaused by: java.util.concurrent.TimeoutExceptionat java.util.concurrent.FutureTask.get(Unknown Source)at com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:147)at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:75)... 35 more]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Execution -->
+        <test-method status="FAIL" signature="Execution()[pri:0, instance:seleniumEasy.RerunFailedCase@436e852b]" name="Execution" duration-ms="141685" started-at="2018-01-01T20:40:35Z" finished-at="2018-01-01T20:42:56Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Pass expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Pass expected [true] but found [false]at org.testng.Assert.fail(Assert.java:96)at org.testng.Assert.failNotEquals(Assert.java:776)at org.testng.Assert.assertTrue(Assert.java:44)at seleniumEasy.RerunFailedCase.Execution(RerunFailedCase.java:33)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.retryFailed(Invoker.java:829)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1000)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Execution -->
+      </class> <!-- seleniumEasy.RerunFailedCase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
